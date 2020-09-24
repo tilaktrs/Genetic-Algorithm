@@ -10,9 +10,9 @@
 ##### 1. The algorithm begins by creating a random initial population.
 ##### 2. The algorithm then creates a sequence of new populations. At each step, the algorithm uses the individuals in the current generation to create the next 	population. To create the new population, the algorithm performs the 	following steps:
 		
-		###### a. Scores each member of the current population by computing its fitness value. These values are called the raw fitness scores.
+		a. Scores each member of the current population by computing its fitness value. These values are called the raw fitness scores.
 		
-		###### b. Selects members, called parents, based on their fitness scores.
+	        b. Selects members, called parents, based on their fitness scores.
 
 ##### 3. Some of the individuals in the current population that have higher fitness are 	chosen as elite. These elite individuals are passed to the next population.
 
